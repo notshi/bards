@@ -5,7 +5,7 @@
 
 <html>
 <head>{head}</head>
-<body>{body}</body>
+<body>{header}{body}{footer}</body>
 </html>
 
 
@@ -22,10 +22,172 @@
 #^title trim=ends
 #^------------------------------
 
-Title is missing.
+Bards! Bards! Bards! : Playing gigs, Saving lives, Gettings paid.
 
 #^------------------------------
 #^body trim=ends
 #^------------------------------
 
 Body is missing.
+
+
+#^header 
+<div class="max"><a href="/"><img src="{_root}data/blogo1" width="720" alt="Bards!Bards!Bards! banner"/></a></div>
+
+#^footer 
+<div class="max bot">
+	<img src="{_root}data/cast_banner" width="210" alt="The cast banner."/>
+	<table class="log">
+		<tr>
+			<td>
+				<a href="http://twitter.com/shi">
+					<img src="{_root}data/strumm" width="250" alt="Half Orc on Viol"/>
+					<span>Tone deaf Half Orc on Bass Viol de Gamba</span>
+					<span><i>"Can I skin that?"</i></span>
+				</a>
+			</td>
+			<td>
+				<a href="http://twitter.com/charlottegore">
+					<img src="{_root}data/guin" width="250" alt="Human Lead Dulcimerist"/>
+					<span>6-string Appalachian Dulcimerist Superstar</span>
+					<span><i>"What have I become?!"</i></span>
+				</a>
+			</td>
+			<td>
+				<a href="http://twitter.com/wetgenes">
+					<img src="{_root}data/dave" width="250" alt="Dwarven Drummer"/>
+					<span>Dwarven Tabor Drummer</span>
+					<span><i>"The dwaf wiw not betway you."</i></span>
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="{_root}data/leon" width="250" alt="Rogue Band Manager"/>
+				<span>Rogue Band Manager</span>
+				<span><i>"Sign here, please."</i></span>
+			</td>
+			<td>
+				<span class="context_head">A bit of context:</span>
+				<span class="context_info">5 people meet once a month for a game of D&amp;D.</span>
+				<span><i>These are our "adventures".</i></span>
+			</td>
+			<td>
+				<a href="http://twitter.com/icepickintheory">
+					<img src="{_root}data/gary" width="250" alt="Our dear DM"/>
+					<span>Dungeon Master Extraordinaire</span>
+					<span><i>"This dice is cursed!"</i></span>
+				</a>
+			</td>
+		</tr>
+	</table>
+	<a href="#" class="top">^^^^^^</a>
+</div>
+<div class="trees">
+	<div class="runner">{a0}{a1}{a2}{a3}{a4}{a5}
+		<div class="b0"></div><div class="b1"></div><div class="b2"></div><div class="b3"></div><div class="b4"></div><div class="b5"></div>
+	</div>
+</div>
+
+<!--	b0 is Leon		Tabor	-->
+<!--	b1 is Gwinny	Dulcimer	-->
+<!--	b2 is Ingrid	Dulcimer	-->
+<!--	b3 is Strumm	Viol	-->
+<!--	b4 is Dave		Tabor	-->
+<!--	b5 is Gary		Viol	-->
+
+#^a0 
+<audio id="aux0" preload="auto">
+	<source src="{_root}data/aux/dulci.mp3" type="audio/ogg" />
+	<source src="{_root}data/aux/dulci.ogg" type="audio/mpeg" />
+	Your browser isn't invited for super fun audio time.
+</audio>
+
+<script>
+head.js( head.fs.jquery_js, function () {
+	var sound=$("#aux0")[0];
+	$(".b1").mouseenter(function() {
+		sound.play();
+	});
+});
+</script>
+
+#^a1 
+<audio id="aux1" preload="auto">
+	<source src="{_root}data/aux/tabor.mp3" type="audio/ogg" />
+	<source src="{_root}data/aux/tabor.ogg" type="audio/mpeg" />
+	Your browser isn't invited for super fun audio time.
+</audio>
+
+<script>
+head.js( head.fs.jquery_js, function () {
+	var sound=$("#aux1")[0];
+	$(".b4").mouseenter(function() {
+		sound.play();
+	});
+});
+</script>
+
+#^a2 
+<audio id="aux2" preload="auto">
+	<source src="{_root}data/aux/viol.mp3" type="audio/ogg" />
+	<source src="{_root}data/aux/viol.ogg" type="audio/mpeg" />
+	Your browser isn't invited for super fun audio time.
+</audio>
+
+<script>
+head.js( head.fs.jquery_js, function () {
+	var sound=$("#aux2")[0];
+	$(".b3").mouseenter(function() {
+		sound.play();
+	});
+});
+</script>
+
+#^a3 
+<audio id="aux3" preload="auto">
+	<source src="{_root}data/aux/dulcia.mp3" type="audio/ogg" />
+	<source src="{_root}data/aux/dulcia.ogg" type="audio/mpeg" />
+	Your browser isn't invited for super fun audio time.
+</audio>
+
+<script>
+head.js( head.fs.jquery_js, function () {
+	var sound=$("#aux3")[0];
+	$(".b2").mouseenter(function() {
+		sound.play();
+	});
+});
+</script>
+
+#^a4 
+<audio id="aux4" preload="auto">
+	<source src="{_root}data/aux/tabora.mp3" type="audio/ogg" />
+	<source src="{_root}data/aux/tabora.ogg" type="audio/mpeg" />
+	Your browser isn't invited for super fun audio time.
+</audio>
+
+<script>
+head.js( head.fs.jquery_js, function () {
+	var sound=$("#aux4")[0];
+	$(".b0").mouseenter(function() {
+		sound.play();
+	});
+});
+</script>
+
+#^a5 
+<audio id="aux5" preload="auto">
+	<source src="{_root}data/aux/viola.mp3" type="audio/ogg" />
+	<source src="{_root}data/aux/viola.ogg" type="audio/mpeg" />
+	Your browser isn't invited for super fun audio time.
+</audio>
+
+<script>
+head.js( head.fs.jquery_js, function () {
+	var sound=$("#aux5")[0];
+	$(".b5").mouseenter(function() {
+		sound.play();
+	});
+});
+</script>

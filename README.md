@@ -11,3 +11,8 @@ If in doubt, check a previous blog post for guidance.
 
 1. Create a new folder in [/blog](https://github.com/notshi/bards/tree/master/plated/source/blog) following the current naming convention _(yy-mm-dd-log-number)_
 2. Create a ```^.html``` file as your blog post.
+
+The blog posts below might be of use.
+
+- [Adding a song list](https://github.com/notshi/bards/blob/master/plated/source/blog/2015-07-19-log-07/%5E.html)
+- [Adding tweets](https://github.com/notshi/bards/blob/master/plated/source/blog/2017-01-29-log-13/%5E.html)

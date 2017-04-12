@@ -11,7 +11,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 a,img{border:0; outline:none;}textarea:focus,input:focus{outline:0;}*:focus{outline:0;}
 
-body, html	{background-color:#111; font-family:sans-serif; background:url('/bards/data/derp.png')#3C321D; background-attachment:fixed;}
+body, html	{width:100%; margin:auto; padding:0; background-color:#111; font-family:sans-serif; background:url('/bards/data/derp.png')#3C321D; background-attachment:fixed;}
 a			{-webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; -o-transition:all .2s ease-in-out; -ms-transition:all .2s ease-in-out; transition:all .2s ease-in-out; cursor:pointer;}
 a, img		{border:0; outline:none;}
 a:focus		{color:#999; text-decoration:none;}
@@ -24,7 +24,7 @@ i			{font-style:italic;}
 h1			{display:none;}
 
 
-.nav_wrap	{width:1024px; margin:auto;}
+.nav_wrap	{width:100%; margin:auto;}
 .nav		{display:inline-block; vertical-align:top; width:50%; border-bottom:1px dashed #1400ff; padding-bottom:20px;}
 .nav:nth-of-type(2)	{text-align:right;}
 
@@ -91,8 +91,10 @@ table.tuwitu tr td:nth-of-type(1)	{width:50px;}
 /*	SONG LIST
 	============================================= */
 	
-.song				{border-top:1px solid #251F12; margin-top:20px; color:#251F12; font-size:0.9em; font-style:italic; line-height:1.4em; padding-top:20px;}
-.song span, .song b	{display:block;}
+.song_wrap	{border-top:1px solid #251F12; margin-top:20px; color:#251F12; font-size:0.9em; font-style:italic; line-height:1.4em; padding-top:20px;}
+.song		{padding-left:20px; padding-top:10px;}
+.song b		{display:block;}
+.song span	{display:list-item; list-style-type:decimal; list-style-position:outside; margin-left:20px; margin:0 auto; padding-bottom:5px;}
 
 
 /*	FOOTER ANIMATION
@@ -120,8 +122,45 @@ table.tuwitu tr td:nth-of-type(1)	{width:50px;}
 @-moz-keyframes run {0%{margin-left:-100px;}100%{margin-left:1900px;}}
 @-o-keyframes run {0%{margin-left:-100px;}100%{margin-left:1900px;}}
 
+
+/*	PHONES & STUFF
+	============================================= */
+	
+@media screen and (max-width: 1024px) {
+
+a.head img		{width:960px;}
+.day, .peak_box	{width:880px;}
+.scroll			{width:900px;}
+.peak_box		{line-height:48px; padding-top:50px;}
+.peak_box img	{width:800px;}
+.peak_box::first-letter	{font-size:100px; margin-right:10px;}
+.date			{font-size:28px;}
+.peak			{border-left:40px solid transparent; border-right:40px solid transparent; border-top:40px solid #E9ECDA;}
+.song_wrap		{padding-top:40px;}
+.song			{padding:20px 20px 20px 60px;}
+
+span.caption	{padding:30px 20px; margin-bottom:45px;}
+.a_blog:nth-child(4n) .bards, .a_blog:nth-child(4n+1) .bards, 
+.a_blog:nth-child(4n+2) .bards, .a_blog:nth-child(4n+3) .bards	{width:600px; height:234px; background-size:contain;}
+
+table.tuwitu tr td:nth-of-type(1)		{width:100px;}
+table.tuwitu tr td:nth-of-type(1) img	{width:100px; height:100px;}
+table.tuwitu tr td.txt		{font-size:20px; line-height:40px;}
+table.tuwitu tr td.txt div	{padding-bottom:10px;}
+
+.bot img		{width:600px;}
+table.log		{width:800px;}
+table.log tr td	span	{font-size:22px; line-height:38px;}
+table.log tr td			{display:block;}
+table.log tr:first-of-type td:first-of-type	{padding-top:60px;}
+table.log tr:last-of-type td:last-of-type	{padding-bottom:100px;}
+table.log tr td span.context_head	{font-size:28px;}
+table.log tr td span.context_info	{width:80%; font-size:34px;}
+
+}
+
 </style></head>
-<body><div class="max"><a href="/bards/"><img src="/bards/data/blogo1" width="720" alt="Bards!Bards!Bards! banner"/></a></div>
+<body><div class="max"><a href="/bards/" class="head"><img src="/bards/data/blogo1" width="720" alt="Bards!Bards!Bards! banner"/></a></div>
 <div class="a_blog">
 	<div class="day">
 		<div class="scroll"></div>
@@ -146,11 +185,13 @@ table.tuwitu tr td:nth-of-type(1)	{width:50px;}
 <p>Oh, and Leon finally used that scroll on himself. I think he saw the apocalypse or something cause I&#39;ve never seen such fear in his eyes. And nothing fazes Leon. Nothing.
 <br/>
 <br/></p>
-<div class="song">
-<b>Song List:</b> 
-<span>1. The only king here is Entropy</span>
-<span>2. It&#39;s Sushi Time!</span>
-<span>3. Quit your fucking job, it sucks.</span>
+<div class="song_wrap">
+    <b>Song List:</b> 
+    <div class="song">
+        <span>The only king here is Entropy</span>
+        <span>It&#39;s Sushi Time!</span>
+        <span>Quit your fucking job, it sucks.</span>
+    </div>
 </div>
 </div>
 		<div class="peak_wrap"><div class="peak"></div></div>

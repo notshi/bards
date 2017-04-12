@@ -15,6 +15,9 @@
   "html": {
    "trim": "ends"
   },
+  "opts": {
+   "redirect": "{_root}blog"
+  },
   "title": {
    "trim": "ends"
   }
@@ -33,5 +36,6 @@
  "head": "<title>{title}</title>\n<style>\n{css}\n</style>",
  "header": "<div class=\"max\"><a href=\"{_root}\"><img src=\"{_root}data/blogo1\" width=\"720\" alt=\"Bards!Bards!Bards! banner\"/></a></div>\n",
  "html": "<html>\n<head>{head}</head>\n<body>{header}{body}{footer}</body>\n</html>",
+ "opts": "",
  "title": "Bards! Bards! Bards! : Playing gigs, Saving lives, Gettings paid."
 }

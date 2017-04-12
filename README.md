@@ -14,5 +14,5 @@ If in doubt, check a previous blog post for guidance.
 
 The blog posts below might be of use.
 
-1. [Adding a song list](https://github.com/notshi/bards/blob/master/plated/source/blog/2015-07-19-log-07/%5E.html)
-2. [Adding tweets](https://github.com/notshi/bards/blob/master/plated/source/blog/2017-01-29-log-13/%5E.html)
+- [Adding a song list](https://github.com/notshi/bards/blob/master/plated/source/blog/2015-07-19-log-07/%5E.html)
+- [Adding tweets](https://github.com/notshi/bards/blob/master/plated/source/blog/2017-01-29-log-13/%5E.html)

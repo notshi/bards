@@ -2,3 +2,12 @@
 
 ### 5 people meet once a month for a game of D&D.
 These are our "adventures".
+
+# How to contribute
+### Adding a new blog post
+
+Blog posts are written in Markdown, images are kept in [/data](https://github.com/notshi/bards/tree/master/plated/source/data).  
+If in doubt, check a previous blog post for guidance.
+
+1. Create a new folder in [/blog](https://github.com/notshi/bards/tree/master/plated/source/blog) following the current naming convention _(yy-mm-dd-log-number)_
+2. Create a ```^.html``` file as your blog post.

@@ -4,11 +4,31 @@
   "posts_per_page": 20
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
+ "_blog_post_body": "<p>Ghosts appear and surround us when Leon pours a vial of contents down the basin. Before we pursued the battle, Leon shoves us contracts to sign.</p>\n<p>Like, right before the battle. With ghosts everywhere. In the middle of things-like.\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd221115.jpg\" width=\"600\"/>\n<span class=\"caption\">What the hell is this, Leon?</span></p>\n<p>Hastily signing the contract, I dismissed the strange black line at the end of the contract as a printing artefact and immediately regretted not listening to my gut instinct.\n<br/>\n<br/></p>\n<p>They call it the fine print for a reason. Even after confirming with Leon that there was no fine print, it was obvious that there was. We will never know what we signed away.\n<br/>\n<br/></p>\n<p>Not long after, I decided to snort a ghost. The pleasant tingly sensation was soon replaced by the sudden realisation that I was now blind and terribly at a disadvantage during the encounter.\n<br/>\n<br/></p>\n<p>Oh, there was also this large room where we found a female drow trapped in a clear bubble, floating in a circle of glowing runes. She seemed very wise but also very tricky and kept persuading us to release her. We did of course, for a price. \n<br/>\n<br/></p>\n<p>Now, if only I could remember what it was ...</p>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
- "_dirname": "/bards/blog",
- "_filename": "/bards/blog",
+ "_blog_post_json": {
+  "author": "Strumm",
+  "datedash": "2015-11-22",
+  "datetime": [
+   2015,
+   11,
+   22,
+   11,
+   0,
+   0
+  ],
+  "title": "Bards Log 11",
+  "unixtime": 1448190000
+ },
+ "_blog_post_newer": "/bards/blog/2016-01-17-log-12/",
+ "_blog_post_older": "/bards/blog/2015-11-01-log-10/",
+ "_dirname": "/bards/blog/2015-11-22-log-11",
+ "_filename": "/bards/blog/2015-11-22-log-11",
  "_flags": {
+  "_blog_post_body": {
+   "form": "markdown"
+  },
   "body": {
    "trim": "ends"
   },
@@ -26,7 +46,7 @@
   }
  },
  "_root": "/bards/",
- "_sourcename": "blog/.",
+ "_sourcename": "blog/2015-11-22-log-11/.",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a2": "<audio id=\"aux2\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/viol.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/viol.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux2\")[0];\n\t$(\".b3\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
@@ -45,5 +65,5 @@
  "link_older_page": "<a href=\"{_it}\">Older posts</a>\n",
  "link_older_post": "<a href=\"{_it}\">Older post</a>\n",
  "this_chunk_is_not_used": "<div class=\"blog_wrap\">\n\t<div class=\"blog_info\"><a href=\"{_dirname}\">{_blog_post_json.title}</a> by {_blog_post_json.author} on {_blog_post_json.datedash}</div>\n\t{_blog_post_body}\n\t{_blog_post_json.fun_file&fun_blog_link}\n</div>\n",
- "title": "Bards! Bards! Bards! : Playing gigs, Saving lives, Gettings paid."
+ "title": "{_blog_post_json.title}"
 }

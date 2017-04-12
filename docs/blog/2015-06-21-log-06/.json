@@ -4,11 +4,31 @@
   "posts_per_page": 20
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
+ "_blog_post_body": "<p>Well, it turns out the Ganasi Leader was in fact a lady, previously known as that really cool water elf dude with the huge water quiff. This sudden turn of events quickly set a couple of things in motion, namely a new song, &quot;The only king here is Entropy&quot; hastily written down by Gwinny whilst the rest of the group awkwardly shifts around the dodgy exchange between the band manager and his new focus of interest (<i>the Ganasi lady</i>). Hopefully we get a gig venue out of this.\n<br/>\n<br/></p>\n<p>And behold, we actually did perform an impromptu performance some mere moments later. A free one, of course; we&#39;re not barbarians. Also we were feeling generous. Also, because it was all subterfuge to get some nasty looking fish people to stop beating up the water elves. Gwinny was super inspired and started singing another new song, &quot;It&#39;s Sushi Time!&quot; which I&#39;m sure will be a total hit. This super inspiration must be infectious. The next thing you know, Dave starts throwing his drum sticks into the air, crossbows a fish to death, catches the sticks in mid-air and starts drumming again. Way too cool. You should&#39;ve been there, man!\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd210615_1.jpg\" width=\"600\"/>\n<span class=\"caption\">Something you want to tell us, Dave buddy?</span></p>\n<p>In any case, we finally reached the lighthouse but not before an almost lethal ending with a freaking water Wyrd. What a curious place this turned out to be; a maze of twisty corridors, all alike. So much so, we had to draw our own map lest we get lost!\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd210615_2.jpg\" width=\"600\"/>\n<span class=\"caption\">Super Awesome Map by Gwinny</span></p>\n<p>On the plus side, we met a totally cool Beholder Spectator who let us in on some excellent treasure after we sang him yet another song, &quot;Quit your fucking job, it sucks.&quot; I think it&#39;s safe to say he&#39;s now a fan of &quot;<b>Bards! Bards! Bards!</b>&quot;. We also recorded some decoy messages on this incredible machine (<i>Gwinny drew a picture of this so we can show it to that inventor to recreate</i>), received some blessings of inspiration from Ayoon (<i>apart from Dave who insists we were exchanging parts of our memory for this</i>) and then there was this really annoying silver surfer creature who wouldn&#39;t let us touch the tablet with pink gems due to us not being Azalabron (<i>some angel in service of Ayoon</i>) even after Gwinny pretended to be him, wings and all. The nerve!\n<br/>\n<br/></p>\n<p>Oh, and Leon finally used that scroll on himself. I think he saw the apocalypse or something cause I&#39;ve never seen such fear in his eyes. And nothing fazes Leon. Nothing.\n<br/>\n<br/></p>\n<div class=\"song\">\n<b>Song List:</b> \n<span>1. The only king here is Entropy</span>\n<span>2. It&#39;s Sushi Time!</span>\n<span>3. Quit your fucking job, it sucks.</span>\n</div>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
- "_dirname": "/bards/blog",
- "_filename": "/bards/blog",
+ "_blog_post_json": {
+  "author": "Strumm",
+  "datedash": "2015-06-21",
+  "datetime": [
+   2015,
+   6,
+   21,
+   6,
+   0,
+   0
+  ],
+  "title": "Bards Log 06",
+  "unixtime": 1434866400
+ },
+ "_blog_post_newer": "/bards/blog/2015-07-19-log-07/",
+ "_blog_post_older": "/bards/blog/2015-05-17-log-05/",
+ "_dirname": "/bards/blog/2015-06-21-log-06",
+ "_filename": "/bards/blog/2015-06-21-log-06",
  "_flags": {
+  "_blog_post_body": {
+   "form": "markdown"
+  },
   "body": {
    "trim": "ends"
   },
@@ -26,7 +46,7 @@
   }
  },
  "_root": "/bards/",
- "_sourcename": "blog/.",
+ "_sourcename": "blog/2015-06-21-log-06/.",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a2": "<audio id=\"aux2\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/viol.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/viol.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux2\")[0];\n\t$(\".b3\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",

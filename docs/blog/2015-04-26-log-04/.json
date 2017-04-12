@@ -4,11 +4,31 @@
   "posts_per_page": 20
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
+ "_blog_post_body": "<p>{tuwitu5}\n{tuwitu4}\n{tuwitu3}\n{tuwitu2}\n{tuwitu1}\n<img src=\"{_root}data/dnd260415.jpg\" width=\"600\"/></p>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
- "_dirname": "/bards/blog",
- "_filename": "/bards/blog",
+ "_blog_post_json": {
+  "author": "Strumm",
+  "datedash": "2015-04-26",
+  "datetime": [
+   2015,
+   4,
+   26,
+   4,
+   0,
+   0
+  ],
+  "title": "Bards Log 04",
+  "unixtime": 1430020800
+ },
+ "_blog_post_newer": "/bards/blog/2015-05-17-log-05/",
+ "_blog_post_older": "/bards/blog/2015-03-29-log-03/",
+ "_dirname": "/bards/blog/2015-04-26-log-04",
+ "_filename": "/bards/blog/2015-04-26-log-04",
  "_flags": {
+  "_blog_post_body": {
+   "form": "markdown"
+  },
   "body": {
    "trim": "ends"
   },
@@ -26,7 +46,7 @@
   }
  },
  "_root": "/bards/",
- "_sourcename": "blog/.",
+ "_sourcename": "blog/2015-04-26-log-04/.",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a2": "<audio id=\"aux2\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/viol.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/viol.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux2\")[0];\n\t$(\".b3\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
@@ -45,5 +65,10 @@
  "link_older_page": "<a href=\"{_it}\">Older posts</a>\n",
  "link_older_post": "<a href=\"{_it}\">Older post</a>\n",
  "this_chunk_is_not_used": "<div class=\"blog_wrap\">\n\t<div class=\"blog_info\"><a href=\"{_dirname}\">{_blog_post_json.title}</a> by {_blog_post_json.author} on {_blog_post_json.datedash}</div>\n\t{_blog_post_body}\n\t{_blog_post_json.fun_file&fun_blog_link}\n</div>\n",
- "title": "Bards! Bards! Bards! : Playing gigs, Saving lives, Gettings paid."
+ "title": "Bards! Bards! Bards! : Playing gigs, Saving lives, Gettings paid.",
+ "tuwitu1": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>8 moons ago</span></div>\n<div>All in a day's work for Bards, Bards, Bards. World's greatest Dungeons and Dragons slightly-evil-aligned superstar mercenary bard militia.</div>\n</td></tr>\n</table>\n",
+ "tuwitu2": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>8 moons ago</span></div>\n<div>We sent some undead imp summoner into a crazy fit of rage by throwing some squirrels at him. Others were merely bemused.</div>\n</td></tr>\n</table>\n",
+ "tuwitu3": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>8 moons ago</span></div>\n<div>Oh, and while we were shopping for souvenirs we found a shop selling \"<b>The Bag Of Infinite Squirrels</b>\". Tip it up, squirrel pops out. #DnD</div>\n</td></tr>\n</table>\n",
+ "tuwitu4": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>8 moons ago</span></div>\n<div>I used it to pretend to be the lead singer of rival Bard band, \"Channel Divinity\" destroying their reputation around the village. FUN #DnD</div>\n</td></tr>\n</table>\n",
+ "tuwitu5": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>8 moons ago</span></div>\n<div>I didn't get what I needed to make fire shoot out of my dulcimer, but I did get a magical hat that lets me disguise myself as anyone I like</div>\n</td></tr>\n</table>\n"
 }

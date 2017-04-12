@@ -4,11 +4,31 @@
   "posts_per_page": 20
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
+ "_blog_post_body": "<p>Another day, another battle. Except this time we were joined by our dear inventor friend, Aeropose.\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd130915_2.jpg\" width=\"600\"/>\n<span class=\"caption\">Aeropose joins us in an epic kill off</span></p>\n<p>When a beam of crackling energy flew towards the Water portal to be turned into Fire, a polygonal stone with runes carved into it appeared to Gwinny and a voice made itself heard in her head, &quot;Would you like more Power? More Fire to kill your enemies?&quot; One wonders what her reply was for she did not say it out loud. One also wonders how one was able to know if this happened, if at all.\n<br/>\n<br/></p>\n<p>Soon, a green jolt of light shot out of the portal and fleshy things with teeth grew out from beneath the ground. Huge tentacles and monsters surrounded us, hungry for action.\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd130915_1.jpg\" width=\"600\"/>\n<span class=\"caption\">&quot;This always happens.&quot; - Aeropose</span></p>\n<p>It took a while but before you know it, Aeropose was hitting the machine with a wrench, the tentacle was deaded and we were shopping for a leather jacket, a horned red gem, exploding bolts, smoke bombs, a prank device and an immovable rod at the Grand Bazaar of the Fire plane.</p>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
- "_dirname": "/bards/blog",
- "_filename": "/bards/blog",
+ "_blog_post_json": {
+  "author": "Strumm",
+  "datedash": "2015-09-13",
+  "datetime": [
+   2015,
+   9,
+   13,
+   9,
+   0,
+   0
+  ],
+  "title": "Bards Log 09",
+  "unixtime": 1442134800
+ },
+ "_blog_post_newer": "/bards/blog/2015-11-01-log-10/",
+ "_blog_post_older": "/bards/blog/2015-08-16-log-08/",
+ "_dirname": "/bards/blog/2015-09-13-log-09",
+ "_filename": "/bards/blog/2015-09-13-log-09",
  "_flags": {
+  "_blog_post_body": {
+   "form": "markdown"
+  },
   "body": {
    "trim": "ends"
   },
@@ -26,7 +46,7 @@
   }
  },
  "_root": "/bards/",
- "_sourcename": "blog/.",
+ "_sourcename": "blog/2015-09-13-log-09/.",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a2": "<audio id=\"aux2\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/viol.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/viol.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux2\")[0];\n\t$(\".b3\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",

@@ -4,11 +4,31 @@
   "posts_per_page": 20
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
+ "_blog_post_body": "<p>With Benito kidnapped for interrogation purposes, Gwinny had free reign to disguise herself as the beloved italian chef to look around Lord Pendeghast&#39;s mansion.\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd170116_2.jpg\" width=\"600\"/>\n<span class=\"caption\">Gwinny maps out Lord Pendeghast&#39;s dwellings</span></p>\n<p>From here, we were able to suss out the hypnotic effect the pink gems had on Maelion. The effect quickly dissipated as soon as Gwinny reached out to slice his throat. It all seemed far too easy. Still, her covert operation remained intact as they swiftly exchanged words about some rotten trout and meat served at yesterday&#39;s lunch.\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd170116_1.jpg\" width=\"600\"/>\n<span class=\"caption\">Dave reunited with his god awful golden drums</span></p>\n<p>Desperate to stop the ultimate Channel Divinity gig that was looming in the horizon, Gwinny left the manor short of clues but arms filled with muttering masks and a magnificent golden drum set.\n<br/>\n<br/></p>\n<p>During which Leon was busy harassing the real Benito in the dark alley way to no avail, Dave was setting up a protest showing with me helping out. Down with that sort of thing and all that.\n<br/>\n<br/></p>\n<p>Later we reconvened at Aeropose&#39;s and requested he set us up a bomb. The Hyperfast Mining Thing was suggested, mostly as he doesn&#39;t like it underneath his shop. The plan was for me to use my boots of choir to fly over the stage and use Mage Hand to place and detonate the Hyperfast Mining Thing whilst we were all very much out of sight.\n<br/>\n<br/></p>\n<p>The only condition Aeropose had was that <b>no one</b> was to get hurt. Easier said that done but we agreed.\n<br/>\n<br/></p>\n<p>Pretty soon, a small mushroom cloud appeared over what used to be the stage for Channel Divinity&#39;s ultimate gig and 3 unlucky occultists were blamed for the deed when they were caught suspecting each other under hushed tones at the local pub.\n<br/>\n<br/></p>\n<p>To rejoice, we initiated an impromptu gig with our biggest fan who showed up for the protest. Leon worked the crowd like the fabulous manager we know and love, everyone was chanting, &quot;Bards! Bards! Bards!&quot; as we belted our latest and greatest to the tune of Channel Divinity shaking their fists from Lord Pendeghast&#39;s house.\n<br/>\n<br/></p>\n<p>There was also the perform-off with Abrigand which lasted about an hour. Just an infinite solo loop alternating between him and Gwinny. Abrigand won with one note over but it was pretty clear Bards! Bards! Bards! was the true winner.\n<br/>\n<br/></p>\n<div class=\"song\">\n<b>Song List:</b> \n1. Hey! We can make you love us without the need for hypnosis!\n</div>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
- "_dirname": "/bards/blog",
- "_filename": "/bards/blog",
+ "_blog_post_json": {
+  "author": "Strumm",
+  "datedash": "2016-01-17",
+  "datetime": [
+   2016,
+   1,
+   17,
+   12,
+   0,
+   0
+  ],
+  "title": "Bards Log 12",
+  "unixtime": 1453032000
+ },
+ "_blog_post_newer": "/bards/blog/2017-01-29-log-13/",
+ "_blog_post_older": "/bards/blog/2015-11-22-log-11/",
+ "_dirname": "/bards/blog/2016-01-17-log-12",
+ "_filename": "/bards/blog/2016-01-17-log-12",
  "_flags": {
+  "_blog_post_body": {
+   "form": "markdown"
+  },
   "body": {
    "trim": "ends"
   },
@@ -26,7 +46,7 @@
   }
  },
  "_root": "/bards/",
- "_sourcename": "blog/.",
+ "_sourcename": "blog/2016-01-17-log-12/.",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a2": "<audio id=\"aux2\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/viol.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/viol.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux2\")[0];\n\t$(\".b3\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
@@ -45,5 +65,5 @@
  "link_older_page": "<a href=\"{_it}\">Older posts</a>\n",
  "link_older_post": "<a href=\"{_it}\">Older post</a>\n",
  "this_chunk_is_not_used": "<div class=\"blog_wrap\">\n\t<div class=\"blog_info\"><a href=\"{_dirname}\">{_blog_post_json.title}</a> by {_blog_post_json.author} on {_blog_post_json.datedash}</div>\n\t{_blog_post_body}\n\t{_blog_post_json.fun_file&fun_blog_link}\n</div>\n",
- "title": "Bards! Bards! Bards! : Playing gigs, Saving lives, Gettings paid."
+ "title": "{_blog_post_json.title}"
 }

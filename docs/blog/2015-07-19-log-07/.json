@@ -4,11 +4,31 @@
   "posts_per_page": 20
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
+ "_blog_post_body": "<p>Exploring the mostly deserted maze of corridors and rooms greeted us with strange surprises, encounters and beings.\n<br/>\n<br/></p>\n<p>I mean, what do you do when you see a massive painting of a black spider in a room full of bodies? Any adventurer in the right mind would start exploring, maybe there&#39;s a bob or two hidden around. Next thing you know, our eight-legged friend came to life and leaped out of the painting! Good thing Gwinny erased its legs. Before you know it, Leon stabbed the prone creature to death and everyone&#39;s a happy camper. \n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd190715_1.jpg\" width=\"600\"/>\n<span class=\"caption\">All hail the natural 20</span></p>\n<p>Then there was the &quot;floating ring on a pedestal&quot; room which infuriated all of us on the account of it being puzzling and everything. There was this silver surfer person you see; Bob was his name, wouldn&#39;t let us go near the thing. We tried reasoning with him but he wasn&#39;t having it. Then we met 3 unrelentless masks in another room being totally unhelpful with the ring situation.\n<br/>\n<br/></p>\n<p>Anyway, Bob was totally boss but with a few spells, he shattered into enough silver glitter to fill up a squirrel bag and the ring, now in our possession, turned out to be magical and had this spell storing cast on it. Tidy!\n<br/>\n<br/></p>\n<p>So like, we finally go through the portal and turns out we&#39;ve been gone for 6 whole weeks! But you know, we saved 600 water elves so that probably counts as something. Sadly, people thought we were dead and all our fans mourned us by being total fans of Channel Divinity. Talk about ungrateful.\n<br/>\n<br/></p>\n<p>Tanalia Embalg, the magistrate gave us our own all inclusive house with a nice big safe in the kitchen. Being professional musicians, we soundproofed the walls and made a dungeon for safe exit across the river. We bought horses and named them Dingaling (Strumm), BattleBob (Leon), Nessie (Dave) and Xybraxis the Defiler (Gwinny). It was a grand old time.\n<br/>\n<br/></p>\n<p>Oh and Gwinny finally got her Dulcimer fitted with the fires of Hell, thanks to the crazy stunt we pulled to steal the Taurimbulator for Aeropose to mod it with. That crazy genius! Speaking of crazy, Gwinny seems not quite right ever since she wielded that thing. Maybe it&#39;s just me but her eyes say otherwise. Those eyes.\n<br/>\n<br/></p>\n<p>In any case, for some reason, we found ourselves ambushed by a bunch of orcs after Leon fought the champion, Braff - a wee one in leather shorts armed with an axe, just so that we could have an audience with the orc chief.\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd190715_2.jpg\" width=\"600\"/>\n<span class=\"caption\">&quot;For the chained one!&quot; - Orcs ambush!</span></p>\n<p>Turns out, the chief was innocent and something was amiss in the orc camp!</p>\n<div class=\"song\">\n<b>Song List:</b> \n<span>1. Go home, spider! Spider-no-legs!</span>\n<span>2. The Ballad of the Legless Spider</span>\n<span>3. We&#39;re gonna cut your dick off, you fucking fucker.</span>\n</div>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
- "_dirname": "/bards/blog",
- "_filename": "/bards/blog",
+ "_blog_post_json": {
+  "author": "Strumm",
+  "datedash": "2015-07-19",
+  "datetime": [
+   2015,
+   7,
+   19,
+   7,
+   0,
+   0
+  ],
+  "title": "Bards Log 07",
+  "unixtime": 1437289200
+ },
+ "_blog_post_newer": "/bards/blog/2015-08-16-log-08/",
+ "_blog_post_older": "/bards/blog/2015-06-21-log-06/",
+ "_dirname": "/bards/blog/2015-07-19-log-07",
+ "_filename": "/bards/blog/2015-07-19-log-07",
  "_flags": {
+  "_blog_post_body": {
+   "form": "markdown"
+  },
   "body": {
    "trim": "ends"
   },
@@ -26,7 +46,7 @@
   }
  },
  "_root": "/bards/",
- "_sourcename": "blog/.",
+ "_sourcename": "blog/2015-07-19-log-07/.",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a2": "<audio id=\"aux2\" preload=\"auto\">\n\t<source src=\"{_root}data/aux/viol.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/aux/viol.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( head.fs.jquery_js, function () {\n\tvar sound=$(\"#aux2\")[0];\n\t$(\".b3\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",

@@ -22,6 +22,14 @@ i			{font-style:italic;}
 h1			{display:none;}
 
 
+.nav_wrap	{width:1024px; margin:auto;}
+.nav		{display:inline-block; vertical-align:top; width:50%; border-bottom:1px dashed #1400ff; padding-bottom:20px;}
+.nav:nth-of-type(2)	{text-align:right;}
+
+.page_link	{display:inline-block; width:50%; vertical-align:top; margin-top:80px;}
+.page_link:nth-of-type(2)	{text-align:right;}
+
+
 .default		{width:960px; margin:0 auto;}
 .max			{width:100%; margin:0 auto; padding-top:40px; text-align:center;}
 .max.bot		{padding-bottom:220px;}
@@ -31,15 +39,17 @@ h1			{display:none;}
 .peak_wrap		{margin:0 auto;}
 
 
-/*	Style for posts	*/
-.peak_box		{margin:0 auto; width:600px; background-color:#E9ECDA; padding:30px 40px 40px 40px; color:#171715; font-family:monospace; font-size:1.1em; line-height:1.6em; border-top:2px solid #920000; box-shadow:0px 10px 100px rgba(204,208,142,0.7);}
+/*	Style for blog posts
+	============================================= */
+	
+.peak_box		{margin:0 auto; width:680px; background-color:#E9ECDA; padding:30px 40px 40px 40px; color:#171715; font-family:monospace; font-size:1.1em; line-height:1.6em; border-top:2px solid #920000; box-shadow:0px 10px 100px rgba(204,208,142,0.7);}
 
 .peak_box::first-letter {color:#920000; font-size:2.3em; float:left; padding-top:3px; padding-right:8px; padding-left:3px; line-height:0.8em; font-family:Georgia; font-weight:bold; text-decoration:underline;}
 
 .peak			{margin:0 auto; width:0; height:0; border-left:20px solid transparent; border-right:20px solid transparent; border-top:20px solid #E9ECDA;}
 
 .peak_box img	{border:2px #A9A191; border-style:double dotted; box-sizing:border-box;}
-span.caption	{font-style:italic; font-size:0.9em; background-color:#CCD08E; text-align:center; display:block; padding:5px 15px; margin:0 auto;}
+span.caption	{font-style:italic; font-size:0.9em; background-color:#CCD08E; text-align:center; display:block; padding:5px 15px; margin:0 auto; margin-bottom:25px;}
 
 .scroll			{width:700px; background-color:#EBF1CF; height:23px; position:absolute; top:-23px; margin:0 auto; left:-10px; box-shadow:0px 10px 15px rgba(53,37,37,0.5); border-radius:4px; z-index:1;}
 
@@ -64,18 +74,28 @@ table.log tr td	span i	{display:block; font-size:0.9em; padding-top:5px; color:#
 table.log tr td span.context_head{margin-top:50px; color:#8787FF; font-size:1.1em;}
 table.log tr td span.context_info{margin:auto; margin-top:10px; margin-bottom:10px; width:100%; line-height:1.4em;}
 
-/*	TUWITU	*/
+
+/*	TUWITU
+	============================================= */
+	
 table.tuwitu			{width:100%; margin:0 auto; text-align:left;}
-table.tuwitu tr td		{text-align:left; vertical-align:top; padding-top:0; border-bottom:1px solid #111; padding-bottom:20px;}
-table.tuwitu tr td.txt	{padding-left:20px;}
+table.tuwitu tr td		{text-align:left; vertical-align:top; border-bottom:1px solid #111; padding:20px 0;}
+table.tuwitu tr td.txt	{padding:20px;}
 table.tuwitu tr td:nth-of-type(1)	{width:50px;}
 .id						{font-weight:bold; color:#920000;}
 .id span				{font-weight:normal; font-style:italic; font-size:0.9em; color:#5D5748;}
 
-/*	SONG LIST	*/
-.song					{border-top:1px solid #251F12; margin-top:20px; color:#251F12; font-size:0.9em; font-style:italic; line-height:1.4em;}
+
+/*	SONG LIST
+	============================================= */
+	
+.song				{border-top:1px solid #251F12; margin-top:20px; color:#251F12; font-size:0.9em; font-style:italic; line-height:1.4em; padding-top:20px;}
+.song span, .song b	{display:block;}
 
 
+/*	FOOTER ANIMATION
+	============================================= */
+	
 .runner				{width:100%; margin:0 auto; height:144px; position:relative; overflow:hidden;}
 .b0					{position:absolute; width:48px; height:48px; left:0; bottom:0; background:url('{_root}data/leon.gif')center no-repeat; -webkit-animation:run 40s linear infinite; -moz-animation:run 40s linear infinite; -o-animation:run 40s linear infinite;}
 .b1					{position:absolute; width:48px; height:72px; left:0; bottom:0; background:url('{_root}data/gwinny.gif')center no-repeat; -webkit-animation:run 43s linear infinite; -moz-animation:run 43s linear infinite; -o-animation:run 43s linear infinite;}

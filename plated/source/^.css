@@ -9,7 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 a,img{border:0; outline:none;}textarea:focus,input:focus{outline:0;}*:focus{outline:0;}
 
-body, html	{width:100%; margin:auto; padding:0; background-color:#111; font-family:sans-serif; background:url('{_root}data/derp.png')#3C321D; background-attachment:fixed;}
+body, html	{width:100%; margin:auto; padding:0; background-color:#111; font-size:16px; font-family:sans-serif; background:url('{_root}data/derp.png')#3C321D; background-attachment:fixed;}
 a			{-webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; -o-transition:all .2s ease-in-out; -ms-transition:all .2s ease-in-out; transition:all .2s ease-in-out; cursor:pointer;}
 a, img		{border:0; outline:none;}
 a:focus		{color:#999; text-decoration:none;}

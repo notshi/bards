@@ -23,6 +23,10 @@ b			{font-weight:bold;}
 i			{font-style:italic;}
 h1			{display:none;}
 
+@-moz-document url-prefix() {
+    body,html	{font-size:22px;}
+}
+
 
 .nav_wrap	{width:100%; margin:auto;}
 .nav		{display:inline-block; vertical-align:top; width:50%; border-bottom:1px dashed #1400ff; padding-bottom:20px;}

@@ -98,9 +98,10 @@ table.tuwitu tr td:nth-of-type(1)	{width:50px;}
 	============================================= */
 	
 .song_wrap	{border-top:1px solid #251F12; margin-top:20px; color:#251F12; font-size:0.9em; font-style:italic; line-height:1.4em; padding-top:20px;}
-.song		{padding-left:20px; padding-top:10px;}
+.song		{padding-top:10px; counter-reset:section;}
 .song b		{display:block;}
-.song span	{display:list-item; list-style-type:decimal; list-style-position:outside; margin-left:20px; margin:0 auto; padding-bottom:5px;}
+.song span	{display:block; list-style-type:decimal; list-style-position:outside; margin-left:20px; margin:0 auto; padding-bottom:5px;}
+.song span:before	{counter-increment:section; content:counter(section) ". ";}
 
 
 /*	FOOTER ANIMATION
@@ -143,7 +144,7 @@ a.head img		{width:960px;}
 .date			{font-size:28px;}
 .peak			{border-left:40px solid transparent; border-right:40px solid transparent; border-top:40px solid #E9ECDA;}
 .song_wrap		{padding-top:40px;}
-.song			{padding:20px 20px 20px 60px;}
+.song			{padding:40px 0;}
 
 span.caption	{padding:30px 20px; margin-bottom:45px;}
 .a_blog:nth-child(4n) .bards, .a_blog:nth-child(4n+1) .bards, 

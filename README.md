@@ -6,11 +6,26 @@ These are our "adventures".
 # How to contribute
 ### Adding a new blog post
 
-Blog posts are written in Markdown, images are kept in [/data](https://github.com/notshi/bards/tree/master/plated/source/data).  
+Blog posts are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), images are kept in [/data](https://github.com/notshi/bards/tree/master/plated/source/data).  
 If in doubt, check a previous blog post for guidance.
 
 1. Create a new folder in [/blog](https://github.com/notshi/bards/tree/master/plated/source/blog) following the current naming convention _(yy-mm-dd-log-number)_
 2. Create a ```^.html``` file as your blog post.
+3. The code snippet below is required at the beginning of each blog post; replace title and author name accordingly.
+
+```
+#^------------------------------
+#^_blog_post_json
+#^------------------------------
+{
+	"title":"Bards Log Number",
+	"author":"Your-D&D-name",
+}
+
+#^------------------------------
+#^_blog_post_body form=markdown
+#^------------------------------
+```
 
 The blog posts below might be of use.
 

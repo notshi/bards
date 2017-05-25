@@ -4,27 +4,26 @@
   "posts_per_page": 20
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
- "_blog_post_body": "<p>It&#39;s been 2 whole years since we&#39;ve gotten this band together to set off on this meandering adventure. Nothing could have prepared us for the events that were to unfold before our very eyes.\n<br/>\n<br/></p>\n<p>After the incredulous Drummer Dave&#39;s secret-dwarven-time-travelling affair, and not to mention, his new found appreciation of self-erected statues, we were more than happy to jump into the offered portal to our initial intended holiday destination. It&#39;s been so long since we&#39;ve had some time off, who knew saving lives were so much effort.\n<br/>\n<br/></p>\n<p>Anyway, so we did just that - only to be transported to the wrong city where every single denizen was brainwashed to serve our heads on a silver platter to none other than that drasted band, Channel Divinity!\n<br/>\n<br/></p>\n<p>What does a bard have to do to get some alone time around here?! Do these people not have lives?\n<br/>\n<br/></p>\n<p>{tuwitu1}\n{tuwitu2}\n{tuwitu3}\n{tuwitu4}\n{tuwitu5}\n{tuwitu0}</p>\n",
+ "_blog_post_body": "<p>{tuwitu0}\n{tuwitu1}</p>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
  "_blog_post_json": {
-  "author": "Strumm",
-  "datedash": "2017-01-29",
+  "author": "Guinevere",
+  "datedash": "2017-05-25",
   "datetime": [
    2017,
-   1,
-   29,
-   13,
+   5,
+   25,
+   14,
    0,
    0
   ],
-  "title": "Bards Log 13",
-  "unixtime": 1485694800
+  "title": "Bards Log 14",
+  "unixtime": 1495720800
  },
- "_blog_post_newer": "/bards/blog/2017-05-25-log-14/",
- "_blog_post_older": "/bards/blog/2016-01-17-log-12/",
- "_dirname": "/bards/blog/2017-01-29-log-13",
- "_filename": "/bards/blog/2017-01-29-log-13/index.html",
+ "_blog_post_older": "/bards/blog/2017-01-29-log-13/",
+ "_dirname": "/bards/blog/2017-05-25-log-14",
+ "_filename": "/bards/blog/2017-05-25-log-14/index.html",
  "_flags": {
   "_blog_post_body": {
    "form": "markdown"
@@ -46,7 +45,7 @@
   }
  },
  "_root": "/bards/",
- "_sourcename": "blog/2017-01-29-log-13/index.html",
+ "_sourcename": "blog/2017-05-25-log-14/index.html",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a2": "<audio id=\"aux2\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/viol.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/viol.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux2\")[0];\n\t$(\".b3\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
@@ -66,10 +65,6 @@
  "link_older_post": "<a href=\"{_it}\">Older post</a>\n",
  "this_chunk_is_not_used": "<div class=\"blog_wrap\">\n\t<div class=\"blog_info\"><a href=\"{_dirname}\">{_blog_post_json.title}</a> by {_blog_post_json.author} on {_blog_post_json.datedash}</div>\n\t{_blog_post_body}\n\t{_blog_post_json.fun_file&fun_blog_link}\n</div>\n",
  "title": "{_blog_post_json.title}",
- "tuwitu0": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/strumm_50x50.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Sir Strumm-a-lot <span>1 moon ago</span></div>\n<div>I'm sorry, Harmony.</div>\n</td></tr>\n</table>\n",
- "tuwitu1": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>1 moon ago</span></div>\n<div>The demon i accidentally sold my soul to demanded i murder someone. Wasnt going to do it but the target was an arsehole. Oh well</div>\n</td></tr>\n</table>\n",
- "tuwitu2": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>1 moon ago</span></div>\n<div>The evil rival bard band \"Channel Divinty\" were back, turned a city into an army of zombies to try to kill us.  Our drummer got trampled.</div>\n</td></tr>\n</table>\n",
- "tuwitu3": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>1 moon ago</span></div>\n<div>Naturally we broke into their house (using the wookie maneuver, and left a little brown present on their beds. Bards bards bards wins again.</div>\n</td></tr>\n</table>\n",
- "tuwitu4": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>1 moon ago</span></div>\n<div>Then, joy upon joy, after two years of being tormented by Channel Divinity we finally got to destroy them. It's over. We did it!!!</div>\n</td></tr>\n</table>\n",
- "tuwitu5": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>1 moon ago</span></div>\n<div>Destroyed them and burnt down their house and remains. Bad news is they'll never see the little brown presents.</div>\n</td></tr>\n</table>\n"
+ "tuwitu0": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>1 moon ago</span></div>\n<div>I admit it. I've been hitting the bard juice pretty hard these last few weeks. We need a gig, and soon before I do something I regret again.</div>\n</td></tr>\n</table>\n",
+ "tuwitu1": "<table class=\"tuwitu\">\n<tr><td><img src=\"{_root}data/gwinny_icon.png\" width=\"50\" height=\"50\"></td>\n<td class=\"txt\">\n<div class=\"id\">Gwinny Hilltopple <span>1 moon ago</span></div>\n<div>This whole city hates bard bands (after what those monsters Channel Divinity did to the city). I can't cope with this. I'm in this for the music, not the murder!</div>\n</td></tr>\n</table>\n"
 }

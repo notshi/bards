@@ -1,10 +1,11 @@
 # Plated-Example
 
-A boilerplate for a static website hosted on github; ie. http://username.github.io/new-repo
+A boilerplate for a static website hosted on github; ie. http://username.github.io/your-new-repo-name
 
 ## Table of contents
   - [Dependencies](#dependencies)
   - [A step by step guide](#a-step-by-step-guide)
+  - [Running & testing your new website locally](#run-this-local)
   - [Adding to an existing repository](#adding-plated-example-to-an-existing-repository)
   - [Scripts](#scripts)
   - [Links & license](#would-you-like-to-know-more)
@@ -25,17 +26,45 @@ _Commands above are for debian/ubuntu. For other operating systems, please the u
    - Create a name for your new repository and click **Begin import**
 
 2. Edit /plated/settings in your new repository
-    - Replace ```/plated-example``` with ```/new-repo```
+    - Replace ```/plated-example``` with ```/your-new-repo-name```
     - If you're creating a yourname.github.io user or organisation site, change it to ```/```
     
 3. Go to ![settings](https://cloud.githubusercontent.com/assets/1515961/25015092/dcf5b398-2069-11e7-9740-424784716088.png)
     - Change the GitHub Pages source to use **master branch /docs folder**
     - Save
 
-4. You can now start building your website!
-    - Remember! Run ```plated/upgrade``` first to install the node required dependencies.
+4. Woohoo! You should now have a brand new website.
+    - Check your URL - http://username.github.io/your-new-repo-name
+    - Your website should now work and contain the default plated-example landing page.
+
+5. Read [the next bit](#run-this-local) on how to push new changes to update your live website.
     
 ---
+
+
+# Run this local
+
+You can test and build your website locally in your preferred browser by running the following scripts in the terminal.
+
+1. Run ```plated/upgrade``` first to install the node required dependencies.
+    - Run this first to install the node required dependencies.
+
+2. Run ```plated/build``` to build your website
+    - Run this at least once!
+
+3. Run ```plated/start``` to start a local server
+    - Leave this running in a separate tab, it should watch and rebuild your new changes.
+    - Make sure that nothing else is using port http://0.0.0.0:8000, otherwise you can't view your local site.
+
+4. View your website in a browser at: http://0.0.0.0:8000/your-new-repo-name
+    - Make sure your browser is not caching content, otherwise your changes will not show up.
+    
+5. Run ```plated/publish``` to push changes to Github
+    - Doing this will re-build and update your current website with the new changes.
+    - Depending on Github, it might take a while for new changes to show up but it shouldn't be too long.
+
+---
+
 
 The website is generated into /docs from files found in /plated/source.
 
@@ -77,7 +106,7 @@ The following scripts may be run from this project's **root directory**.
 
 	plated/upgrade
 
-&#8627; This will install or upgrade plated using npm.
+&#8627; This will install or upgrade plated to the latest version using npm.
 
 **Run this once for the scripts to work.** Run this later to upgrade to the latest version.
 
@@ -110,7 +139,7 @@ _(Optional if ```plated/start``` is running)_
 	plated/serv
 
 &#8627; Start a simple static server locally, visit 
-http://0.0.0.0:8000/plated-example/ in your browser to view your 
+http://0.0.0.0:8000/your-new-repo-name/ in your browser to view your 
 site.
 
 _(Optional if ```plated/start``` is running)_

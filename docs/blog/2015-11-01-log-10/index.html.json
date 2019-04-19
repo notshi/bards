@@ -1,10 +1,15 @@
 {
  "_blog_json": {
   "dir": "blog/.",
-  "posts_per_page": 20
+  "feed": {
+   "title": "Title"
+  },
+  "posts_per_feed": 20,
+  "posts_per_page": 20,
+  "url": "/"
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
- "_blog_post_body": "<p>Today we faced the infamous gelatinous cube. If we had met it in a corridor, we&#39;d have surely perished.\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd011115.jpg\" width=\"600\"/>\n<span class=\"caption\">The gelatinous cube is a ten-foot cube of transparent gelatinous ooze, which is able to absorb organic matter.</span></p>\n<p>It took us a trying 8 hours to arrive at the bottom of the pit. Sure we saved some dozens of dirty, malnourished villagers in cages by hacking away at the captors emblazoned with the cursed swirly symbol but 8 hours felt like forever!\n<br/>\n<br/></p>\n<p>Here we met with some cultists looting the corpses of the drow denizens which we persuaded to cease only to have Leon murder one of them and turn invisible to get the upperhand. Gwinny then turns the remaining cultist invisible thus setting it free, screaming, &quot;You people are crazy!&quot; before disappearing into the ether.\n<br/>\n<br/></p>\n<p>Shortly after, we kill a bunch of drows and stumbled into a sacrificial room with scary symbols on the door. Here, a statue of humanoid nature surrounded by skulls, holds a chalice of blood dripping from the ceiling; a sight not welcoming enough for a short rest or nap.\n<br/>\n<br/></p>\n<p>Later we finally used the tunneling orb and in doing so, accidentally vaporized a drow boy into a shower of blood. Whoopsie!</p>\n",
+ "_blog_post_body": "<p>Today we faced the infamous gelatinous cube. If we had met it in a corridor, we&#39;d have surely perished.\n<br/>\n<br/></p>\n<img src=\"{_root}data/dnd011115.jpg\" width=\"600\"/>\n<span class=\"caption\">The gelatinous cube is a ten-foot cube of transparent gelatinous ooze, which is able to absorb organic matter.</span>\n\n<p>It took us a trying 8 hours to arrive at the bottom of the pit. Sure we saved some dozens of dirty, malnourished villagers in cages by hacking away at the captors emblazoned with the cursed swirly symbol but 8 hours felt like forever!\n<br/>\n<br/></p>\n<p>Here we met with some cultists looting the corpses of the drow denizens which we persuaded to cease only to have Leon murder one of them and turn invisible to get the upperhand. Gwinny then turns the remaining cultist invisible thus setting it free, screaming, &quot;You people are crazy!&quot; before disappearing into the ether.\n<br/>\n<br/></p>\n<p>Shortly after, we kill a bunch of drows and stumbled into a sacrificial room with scary symbols on the door. Here, a statue of humanoid nature surrounded by skulls, holds a chalice of blood dripping from the ceiling; a sight not welcoming enough for a short rest or nap.\n<br/>\n<br/></p>\n<p>Later we finally used the tunneling orb and in doing so, accidentally vaporized a drow boy into a shower of blood. Whoopsie!</p>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
  "_blog_post_json": {
@@ -21,10 +26,10 @@
   "title": "Bards Log 10",
   "unixtime": 1446372000
  },
- "_blog_post_newer": "/bards/blog/2015-11-22-log-11/",
- "_blog_post_older": "/bards/blog/2015-09-13-log-09/",
- "_dirname": "/bards/blog/2015-11-01-log-10",
- "_filename": "/bards/blog/2015-11-01-log-10/index.html",
+ "_blog_post_newer": "{_root}blog/2015-11-22-log-11/",
+ "_blog_post_older": "{_root}blog/2015-09-13-log-09/",
+ "_dirname": "{_root}blog/2015-11-01-log-10",
+ "_filename": "{_root}blog/2015-11-01-log-10/index.html",
  "_flags": {
   "_blog_post_body": {
    "form": "markdown"
@@ -45,7 +50,10 @@
    "trim": "ends"
   }
  },
- "_root": "/bards/",
+ "_output_chunkname": "html",
+ "_output_filename": "blog/2015-11-01-log-10/index.html",
+ "_root": "../../",
+ "_site": "{_root}",
  "_sourcename": "blog/2015-11-01-log-10/index.html",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",

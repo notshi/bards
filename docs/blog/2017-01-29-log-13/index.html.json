@@ -1,7 +1,12 @@
 {
  "_blog_json": {
   "dir": "blog/.",
-  "posts_per_page": 20
+  "feed": {
+   "title": "Title"
+  },
+  "posts_per_feed": 20,
+  "posts_per_page": 20,
+  "url": "/"
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
  "_blog_post_body": "<p>It&#39;s been 2 whole years since we&#39;ve gotten this band together to set off on this meandering adventure. Nothing could have prepared us for the events that were to unfold before our very eyes.\n<br/>\n<br/></p>\n<p>After the incredulous Drummer Dave&#39;s secret-dwarven-time-travelling affair, and not to mention, his new found appreciation of self-erected statues, we were more than happy to jump into the offered portal to our initial intended holiday destination. It&#39;s been so long since we&#39;ve had some time off, who knew saving lives were so much effort.\n<br/>\n<br/></p>\n<p>Anyway, so we did just that - only to be transported to the wrong city where every single denizen was brainwashed to serve our heads on a silver platter to none other than that drasted band, Channel Divinity!\n<br/>\n<br/></p>\n<p>What does a bard have to do to get some alone time around here?! Do these people not have lives?\n<br/>\n<br/></p>\n<p>{tuwitu1}\n{tuwitu2}\n{tuwitu3}\n{tuwitu4}\n{tuwitu5}\n{tuwitu0}</p>\n",
@@ -21,10 +26,10 @@
   "title": "Bards Log 13",
   "unixtime": 1485694800
  },
- "_blog_post_newer": "/bards/blog/2017-05-25-log-14/",
- "_blog_post_older": "/bards/blog/2016-01-17-log-12/",
- "_dirname": "/bards/blog/2017-01-29-log-13",
- "_filename": "/bards/blog/2017-01-29-log-13/index.html",
+ "_blog_post_newer": "{_root}blog/2017-05-25-log-14/",
+ "_blog_post_older": "{_root}blog/2016-01-17-log-12/",
+ "_dirname": "{_root}blog/2017-01-29-log-13",
+ "_filename": "{_root}blog/2017-01-29-log-13/index.html",
  "_flags": {
   "_blog_post_body": {
    "form": "markdown"
@@ -45,7 +50,10 @@
    "trim": "ends"
   }
  },
- "_root": "/bards/",
+ "_output_chunkname": "html",
+ "_output_filename": "blog/2017-01-29-log-13/index.html",
+ "_root": "../../",
+ "_site": "{_root}",
  "_sourcename": "blog/2017-01-29-log-13/index.html",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",

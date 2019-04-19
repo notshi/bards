@@ -1,7 +1,12 @@
 {
  "_blog_json": {
   "dir": "blog/.",
-  "posts_per_page": 20
+  "feed": {
+   "title": "Title"
+  },
+  "posts_per_feed": 20,
+  "posts_per_page": 20,
+  "url": "/"
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
  "_blog_post_body": "<p>{tuwitu5}\n{tuwitu4}\n{tuwitu3}\n{tuwitu2}\n{tuwitu1}\n<img src=\"{_root}data/dnd260415.jpg\" width=\"600\"/></p>\n",
@@ -21,10 +26,10 @@
   "title": "Bards Log 04",
   "unixtime": 1430020800
  },
- "_blog_post_newer": "/bards/blog/2015-05-17-log-05/",
- "_blog_post_older": "/bards/blog/2015-03-29-log-03/",
- "_dirname": "/bards/blog/2015-04-26-log-04",
- "_filename": "/bards/blog/2015-04-26-log-04/index.html",
+ "_blog_post_newer": "{_root}blog/2015-05-17-log-05/",
+ "_blog_post_older": "{_root}blog/2015-03-29-log-03/",
+ "_dirname": "{_root}blog/2015-04-26-log-04",
+ "_filename": "{_root}blog/2015-04-26-log-04/index.html",
  "_flags": {
   "_blog_post_body": {
    "form": "markdown"
@@ -45,7 +50,10 @@
    "trim": "ends"
   }
  },
- "_root": "/bards/",
+ "_output_chunkname": "html",
+ "_output_filename": "blog/2015-04-26-log-04/index.html",
+ "_root": "../../",
+ "_site": "{_root}",
  "_sourcename": "blog/2015-04-26-log-04/index.html",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",

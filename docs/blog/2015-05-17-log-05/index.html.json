@@ -1,10 +1,15 @@
 {
  "_blog_json": {
   "dir": "blog/.",
-  "posts_per_page": 20
+  "feed": {
+   "title": "Title"
+  },
+  "posts_per_feed": 20,
+  "posts_per_page": 20,
+  "url": "/"
  },
  "_blog_page_body": "<div class=\"blog_list_wrap\">{_list:blog_list}</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_page_older:link_older_page}</div><div class=\"page_link\">{_blog_page_newer:link_newer_page}</div>\n</div>\n\n",
- "_blog_post_body": "<p>T<b>he Bag of Infinite Squirrels is a lie.</b> Went back to the inn and asked the innkeeper if we could use the kitchen to whip up some interesting recipes for all this squirrel we&#39;ve procured and the bag literally went limp after the 35th squirrel was yanked out.\n<br/>\n<br/></p>\n<p>Wish we identified the bag at the marketplace! Those damn fiery-plane sellers!\n<br/>\n<br/></p>\n<p>Speaking of planes, we stumbled upon the rather phallic looking aqua plane next where we bumped into Ayoon, the goddess of knowledge. Well, not in the literal sense that is. She came in a form of a scroll; one inscribed with an invocation spell that allows us one question to which we will be shown its implications within a period of 7 days.\n<br/>\n<br/></p>\n<p><img src=\"{_root}data/dnd170515.png\" width=\"600\">\n<span class=\"caption\">Totally a map, not anything else. Also, no dragons so far.</span></p>\n<p>Suffice to say, this was probably the strangest realm we&#39;ve been to yet - filled with fish people, water elves adorned with water quiffs, a humoungous moose-like creature with 8 antlers and 2 horns which we might have collectively hallucinated and of course, vicious water dogs. Sadly, the acoustics here are a tad warbly. Nice reverb though!</p>\n",
+ "_blog_post_body": "<p>T<b>he Bag of Infinite Squirrels is a lie.</b> Went back to the inn and asked the innkeeper if we could use the kitchen to whip up some interesting recipes for all this squirrel we&#39;ve procured and the bag literally went limp after the 35th squirrel was yanked out.\n<br/>\n<br/></p>\n<p>Wish we identified the bag at the marketplace! Those damn fiery-plane sellers!\n<br/>\n<br/></p>\n<p>Speaking of planes, we stumbled upon the rather phallic looking aqua plane next where we bumped into Ayoon, the goddess of knowledge. Well, not in the literal sense that is. She came in a form of a scroll; one inscribed with an invocation spell that allows us one question to which we will be shown its implications within a period of 7 days.\n<br/>\n<br/></p>\n<img src=\"{_root}data/dnd170515.png\" width=\"600\">\n<span class=\"caption\">Totally a map, not anything else. Also, no dragons so far.</span>\n\n<p>Suffice to say, this was probably the strangest realm we&#39;ve been to yet - filled with fish people, water elves adorned with water quiffs, a humoungous moose-like creature with 8 antlers and 2 horns which we might have collectively hallucinated and of course, vicious water dogs. Sadly, the acoustics here are a tad warbly. Nice reverb though!</p>\n",
  "_blog_post_body_many": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\"><a href=\"{_dirname}\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</a></div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n",
  "_blog_post_body_one": "<div class=\"a_blog\">\n\t<div class=\"day\">\n\t\t<div class=\"scroll\"></div>\n\t\t<div class=\"scroll_tip\"></div>\n\t\t<div class=\"scroll_tip a\"></div>\n\t\t<div class=\"peak_box\">{_blog_post_body}</div>\n\t\t<div class=\"peak_wrap\"><div class=\"peak\"></div></div>\n\t\t<div class=\"date\">~ {_blog_post_json.author}, {_blog_post_json.datedash}</div>\n\t</div>\n\t<div class=\"bards\"></div>\n</div>\n\n<div class=\"nav_wrap\">\n\t<div class=\"page_link\">{_blog_post_older:link_older_post}</div><div class=\"page_link\">{_blog_post_newer:link_newer_post}</div>\n</div>\n\n",
  "_blog_post_json": {
@@ -21,10 +26,10 @@
   "title": "Bards Log 05",
   "unixtime": 1431838800
  },
- "_blog_post_newer": "/bards/blog/2015-06-21-log-06/",
- "_blog_post_older": "/bards/blog/2015-04-26-log-04/",
- "_dirname": "/bards/blog/2015-05-17-log-05",
- "_filename": "/bards/blog/2015-05-17-log-05/index.html",
+ "_blog_post_newer": "{_root}blog/2015-06-21-log-06/",
+ "_blog_post_older": "{_root}blog/2015-04-26-log-04/",
+ "_dirname": "{_root}blog/2015-05-17-log-05",
+ "_filename": "{_root}blog/2015-05-17-log-05/index.html",
  "_flags": {
   "_blog_post_body": {
    "form": "markdown"
@@ -45,7 +50,10 @@
    "trim": "ends"
   }
  },
- "_root": "/bards/",
+ "_output_chunkname": "html",
+ "_output_filename": "blog/2015-05-17-log-05/index.html",
+ "_root": "../../",
+ "_site": "{_root}",
  "_sourcename": "blog/2015-05-17-log-05/index.html",
  "a0": "<audio id=\"aux0\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/dulci.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/dulci.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux0\")[0];\n\t$(\".b1\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
  "a1": "<audio id=\"aux1\" preload=\"auto\">\n\t<source src=\"{_root}data/sound/tabor.mp3\" type=\"audio/ogg\" />\n\t<source src=\"{_root}data/sound/tabor.ogg\" type=\"audio/mpeg\" />\n\tYour browser isn't invited for super fun audio time.\n</audio>\n\n<script>\nhead.js( \"{_root}js/jquery-3.2.1.min.js\", function () {\n\tvar sound=$(\"#aux1\")[0];\n\t$(\".b4\").mouseenter(function() {\n\t\tsound.play();\n\t});\n});\n</script>\n",
